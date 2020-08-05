@@ -1,0 +1,341 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #161e67;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-blue {
+    background-color: #161e67;
+}
+.bg-white-only {
+    background-color: #f2f3f4 !important;
+}
+.bg-white {
+    background-color: #f2f3f4 !important;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    border-radius: 25px;
+}
+.bg-white p {
+    color: black;
+    font-weight: 400;
+}
+
+.bg-shadow {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.25), 0 6px 20px 0 rgba(255, 255, 255, 0.25);
+}
+.bg-shadowTwo {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1, h2, h3, h4,h5 {
+    color: #ff5c5c;
+    font-weight: 800;
+}
+
+h2, h3, h4, h5 {
+    font-weight: 600;
+}
+
+p, label {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.blackWhite {
+    filter: grayscale(100%);
+}
+.marginTopBottom {
+    margin-top: 8em;
+    margin-bottom: 3em;
+}
+.marginBottom {
+    margin-bottom: 3em;
+}
+.padAround {
+    padding: 2em 0;
+}
+.padBottom {
+    padding-bottom: 10em;
+}
+
+.bannerBackground {
+    background-image: url(../images/jellytoast.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.bannerBackgroundTwo {
+    background-image: url(../images/contact.png);
+    background-position: 0 11%;
+    background-size: cover;
+}
+
+textarea {
+    max-width: 100%;
+}
+
+#redbox {
+    background-color: #ff5c5c; 
+    width: 50%; 
+    height: 150px; 
+    position: absolute; 
+    top: 25%; 
+    left: 50%; 
+    opacity: 0.3; 
+    z-index: 1;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 10; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  .modal-content p {
+      color: black;
+  }
+
+  /*NAVBAR*/
+.navlogo{
+	height: 90px;
+	width: 90px;
+}
+.navbar{
+	background-color: #161e67;
+	font-weight: bold;
+	font-size: 25px;
+}
+.nav-link{
+	color: #ff5c5c;
+	font-family: 'Montserrat', sans-serif;
+}
+.nav-link:hover{
+	color: white;
+}
+/*NAVBAR*/
+
+/*Footer CSS*/
+.footerLogo2{
+	display: flex;
+	/*justify-content: center;*/
+	height: 115px;
+	width: 115px;
+	/*padding-top: 20px;*/
+}
+.footer-row{
+	background-color: #161e67;
+	font-weight: bold;
+	/*font-size: 25px;*/
+}
+.footerText{
+    text-align: center;
+	color: #ff5c5c;
+	font-family: 'Montserrat', sans-serif;
+}
+footer p {
+    color: #ff5c5c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.footer-row{
+	display: flex;
+	justify-content: space-between;
+}
+.adress{
+	padding: 10px;
+	line-height: 1.25em;	
+}
+.location{
+	line-height: .8em;
+}
+.item1{
+	padding-top: 20px;
+}
+/*Footer CSS*/
+
+.custom-toggler.navbar-toggler { 
+    border-color: white; 
+} 
+
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+/* profile cards */
+.card {
+    transition: 0.5s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.profile-card .card-img-block{
+    float:left;
+    width:100%;
+    height:150px;
+    overflow:hidden;
+}
+.profile-card .card-body{
+    position:relative;
+}
+.profile-card .profile {
+    border-radius: 50%;
+    position: absolute;
+    top: -62px;
+    left: 50%;
+    width:100px;
+    border: 3px solid rgba(255, 255, 255, 1);
+    margin-left: -50px;
+    background-color: #ff5c5c;
+
+}
+.profile-card .card-img-block{
+    position:relative;
+}
+.profile-card .card-img-block > .info-box{
+    position:absolute;
+    background: #ff5c5c;
+    width:100%;
+    height:100%;
+    color:#fff;
+    padding:20px;
+    text-align:center;
+    font-size:14px;
+   -webkit-transition: 1s ease;
+    transition: 1s ease;
+    opacity:0;
+}
+.profile-card .card-img-block:hover > .info-box{
+    opacity:1;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.profile-card h5{
+    font-weight:600;
+    color: #161e67;
+}
+.profile-card .card-text{
+    font-weight:300;
+    font-size:15px;
+}
+.profile-card .icon-block{
+    float:left;
+    width:100%;
+}
+.profile-card .icon-block a{
+    text-decoration:none;
+}
+.profile-card i {
+  display: inline-block;
+    font-size: 16px;
+    color: #d90be1;
+    text-align: center;
+    border: 1px solid #d90be1;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+.profile-card i:hover {
+  background-color:#d90be1;
+  color:#fff;
+}
+.card-text {
+    color: black;
+}
+
+form.search button{
+	background-color: #ff5c5c;
+	color: #f2f2f2;
+}
+form.search button:hover{
+	background-color: #F2A22C;
+	color: #f2f2f2;
+}
+
+.jumbotron {
+    background-image: url("../images/natalie-rhea-riggs-S_AqsN193U8-unsplash.jpg");
+    background-size: cover;
+    background-position: 0px, 2px;
+    background-repeat: no-repeat;
+    margin-top: 7em;
+}
+.titleName{
+    font-weight: 800;
+    color: #ff5c5c;
+    font-size: 3em;
+    text-shadow: 2px 5px #161e67;
+  }
+  
+  .addshadow {
+    font-size: 25px;
+    text-shadow: 1px 1px #f2f2f2;
+  }
+
+  .fa {
+    padding: 5px 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+ 
+  
+.slide-fwd-center {
+	-webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
+  }
+  @keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
+  }

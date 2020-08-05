@@ -1,0 +1,216 @@
+
+/*NAVBAR*/
+.navlogo{
+	height: 90px;
+	width: 90px;
+}
+.navbar{
+	background-color: #161e67;
+	font-weight: bold;
+	font-size: 25px;
+}
+.nav-link{
+	color: #ff5c5c;
+	font-family: 'Montserrat', sans-serif; 
+}
+.nav-link:hover{
+	color: white;
+}
+form.search button{
+	background-color: #ff5c5c;
+	color: #f2f2f2;
+}
+form.search button:hover{
+	background-color: #F2A22C;
+	color: #f2f2f2;
+}
+/*NAVBAR*/
+
+.titleName{
+  
+  font-weight: 800;
+  color: #ff5c5c;
+  font-size: 5em;
+  text-shadow: 2px 5px #161e67;
+  
+}
+
+.addshadow {
+
+  font-size: 25px;
+  text-shadow: 2px 2px #f2f2f2;
+  color: #ff5c5c;
+}
+
+
+/* Products page css */
+.bodyBackground {
+  background-color: #f2f2f2;
+}
+
+
+
+.jumbotron {
+  background-image: url(../images/natalie-rhea-riggs-S_AqsN193U8-unsplash.jpg);
+  background-size: cover;
+  background-position: 0px, 2px;
+  background-repeat: no-repeat;
+  margin-top: 5em;
+  /* background-color: #161e67; */
+}
+
+
+.productHeader {
+  font-size: 3em;
+  text-shadow: 1px 2px #ff5c5c;
+  
+}
+
+.redBtn {
+  background-color: #ff5c5c;
+  color: #f2f2f2;
+}
+
+.imageRows {
+  margin-bottom: 2em;
+  padding: 5px 75px;
+}
+
+.line {
+  background-color: #161e67;
+}
+
+/* new to card deck */
+.card-footer{
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 80% !important;
+
+}
+.card{
+  color: #f2f2f2;
+  background: transparent;
+  border: none;
+
+  } 
+
+  .card-title{
+   color: #161e67;
+   text-align: center;
+   font-size: 20px;
+  
+}
+  .card:hover .imageEffect {
+    opacity: 1;
+    /* background: #161e67; */
+  background: -moz-linear-gradient(-45deg, #ff5c5c 15%, #f2f2f2 100%);
+  background: -webkit-linear-gradient(-45deg, #ff5c5c 15%,#f2f2f2 100%);
+  background: linear-gradient(135deg, #ff5c5c 15%,#f2f2f2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a9e5', endColorstr='#2b94e5',GradientType=1 );
+  }
+
+  .imageEffect {
+    background: #161e67;
+    overflow: hidden;
+    transition: all ease-in-out;
+    z-index: 2;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+  
+  } 
+  
+  .modal {
+    color:#ff5c5c;
+  }
+
+/*Footer CSS*/
+.footerLogo2{
+	display: flex;
+	/*justify-content: center;*/
+	height: 115px;
+	width: 115px;
+	margin-top: 35px;
+	/*padding-top: 20px;*/
+}
+.footer-row{
+  background-color: #161e67;
+	font-weight: bold;
+	/*font-size: 25px;*/
+}
+footer p{
+	color: #ff5c5c;
+	font-family: 'Montserrat', sans-serif;
+}
+.footerText {
+  text-align: center;
+}
+.footer-row{
+	display: flex;
+	justify-content: space-between;
+}
+.adress{
+	padding: 10px;
+	line-height: 1.25em;	
+}
+.location{
+	line-height: .8em;
+}
+.item1{
+	padding-top: 40px;
+}
+/*Footer CSS*/
+
+.fa {
+  padding: 5px 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: #007bff;
+}
+
+.fa-twitter {
+  color: #007bff;
+}
+
+.fa-google {
+  color: #007bff;
+}
+
+.fa-linkedin {
+  color: #007bff;
+}
+
+.fa-youtube {
+  color: #007bff;
+}
+
+
+form.search button{
+	background-color: #ff5c5c;
+	color: #f2f2f2;
+}
+form.search button:hover{
+	background-color: #F2A22C;
+	color: #f2f2f2;
+}
+
+.navbar-toggler { 
+  border-color: white; 
+} 
+
+.navbar-toggler-icon { 
+  background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
